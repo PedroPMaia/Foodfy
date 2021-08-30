@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+.layout {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 93px;
+    gap: 122px;
+    display: flex;
+    /* Faz com que haja centralizacao */
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #111111;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.titles h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    line-height: 38px;
+}
+
+.titles p {
+    font-size: 18px;
+    margin: 0;
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+#container {
+    display: flex;
+    width: 940px;
+    height: 366px;
+    background-color: #FBDFDB;
+    border-radius: 30px;
+    padding: 0 100px 0 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#container img {
+    width: 216px;
+    height: 300px;
+    align-self: flex-end;
+}
+
+/* ==== CARDS ==== */
+.cards {
+    display: grid;
+    width: 940px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-right: 1px;
+}
+
+.cards .card_image-container img {
+    max-width: 300px;
+    max-height: 140px;
+    border-radius: 15px;
+}
+
+.cards .card_image-container p {
+    font-size: 14px;
+    color: #777777;
+    spacing: 16px;
+    line-height: 5px;
+}
+
+.rodape {
+    margin: 0 auto;
+    height: 60px;
+    background-color: #EEEEEE;
+    margin-top: 50px;
+}
+
+.rodape footer {
+    height: 16px;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    line-height: 44px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1 {
+    font-size: 16px;
+    text-align: center;
+    background: yellow;
+    width: 10px;
+    display: inline-block;
+    opacity: 100%;
+    padding: 38px 30px 36px 444px;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: center;
+    background: yellow;
+    width: 50px;
+    display: inline-block;
+    opacity: 100%;
+    padding: 38px 276px 36px 30px;
+}
+
+#img {
+    margin-right: 122.4px;
+} */
